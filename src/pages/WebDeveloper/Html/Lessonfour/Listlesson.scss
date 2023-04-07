@@ -1,0 +1,230 @@
+.lessonfourpage {
+  width: 100%;
+
+  .lessonfourcontainer {
+    width: 100%;
+
+    .list_main {
+      width: 100%;
+      margin-top: 80px;
+      .circlepart {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        .thislesson {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+          .abouthtml {
+            color: #1c84ff;
+          }
+        }
+        .circle {
+          width: 100%;
+        }
+      }
+      .training {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        width: 100%;
+        .trainhead {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+        }
+        .description {
+          margin-top: 50px;
+          width: 550px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+          color: #000000;
+        }
+        .tohome {
+          width: 183px;
+          height: 60px;
+          left: 466px;
+          top: 625px;
+          color: #ffffff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          background: #18191b;
+          border-radius: 20px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          margin-top: 20px;
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+        }
+        .continuelearnbtn {
+          width: 280px;
+          height: 60px;
+          margin-top: 20px;
+          color: #ffffff;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          gap: 20px;
+          background: #18191b;
+          border-radius: 20px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+        }
+        .numberlesson {
+          height: 360px;
+        }
+      }
+      .yourcourses {
+        display: grid;
+        width: 100%;
+        height: 700px;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        .your_courses {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+        }
+        .courscard {
+          width: 100%;
+          margin-top: 80px;
+          display: grid;
+          gap: 50px;
+          grid-template-columns: 1fr 1fr 1fr;
+          justify-content: space-between;
+          gap: 3%;
+          flex-wrap: wrap;
+
+          .yourcoursescard {
+            width: 100%;
+            height: 400px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 5%;
+            background: #18191b;
+            border-radius: 50px;
+
+            cursor: pointer;
+            &:active {
+              background: #1c84ff;
+            }
+            &:hover {
+              background: #1c84ff;
+              transition: 0.3s;
+            }
+            .itemimg {
+              width: 230px;
+              height: 200px;
+              cursor: pointer;
+            }
+            .itemtitle {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 25px;
+              line-height: 36px;
+              text-align: center;
+              color: #ffffff;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footlist {
+    margin-top: 800px;
+  }
+}
+
+
+
+.listpage_list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  &_item {
+    // color: black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    // background-color: blue;
+
+    &_line {
+      width: 100%;
+      margin: 0;
+      display: block;
+      // width: 50px;
+      height: 5px;
+      background-color: black;
+
+      &_1 {
+        background-color: #1C84FF ;
+      }
+    }
+
+
+    &_circle {
+      margin: 0;
+      display: block;
+      width: 15px;
+      height: 15px;
+      color: black;
+      border-radius: 50%;
+      background-color: #000;
+      cursor: pointer;
+
+      &_1 {
+        background-color: #1C84FF ;
+      }
+    }
+
+  }
+}
+
+.dp {
+  background-color: #1C84FF !important;
+}
+
+.listpage_list_item_text {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+color: #1C84FF;
+  position: absolute;
+  top: -42px;
+  right: -2px;
+}
+
+.null {
+  display: none;
+  background-color: red;
+}

@@ -1,0 +1,445 @@
+.Userpage {
+  width: 100%;
+  height: 100%;
+  .Usercontainer {
+    width: 100%;
+    height: 100%;
+    // max-width: 1140px;
+    .User {
+      width: 100%;
+      display: grid;
+      .cardhead {
+        margin-top: 20px;
+        justify-content: center;
+        display: flex;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 41px;
+        color: #000000;
+      }
+      .Cardstudent {
+        width: 100%;
+        height: 1520px;
+        margin-top: 20px;
+        background: #f8f8ff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+
+        .aboutuser {
+          display: flex;
+          align-items: center;
+          gap: 60px;
+          .infouser {
+            width: 600px;
+            height: 265px;
+            margin-left: 3%;
+            margin-top: 3%;
+            background: #ffffff;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            align-items: center;
+            text-align: left;
+            display: flex;
+            position: relative;
+
+            .star{
+              position: absolute;
+              top: 149px;
+              left: 137px;
+            }
+            .user {
+              width: 200px;
+              height: 200px;
+              border-radius: 100px;
+              margin-left: 7%;
+            }
+            .name {
+              width: 100%;
+              height: 200px;
+              margin-left: 40px;
+              display: grid;
+              gap: 10px;
+              .name_user {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 25px;
+                line-height: 36px;
+                color: #1c84ff;
+              }
+              .age_user {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                color: #000000;
+                span {
+                  color: rgba(152, 152, 152, 1);
+                }
+              }
+              .passedcourse {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                color: #000000;
+                span {
+                  color: #1c84ff;
+                }
+              }
+              .nextcourse {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                color: #000000;
+                span {
+                  color: rgba(152, 152, 152, 1);
+                }
+              }
+            }
+          }
+          .iconright {
+            color: #1c84ff;
+            font-size: 4rem;
+          }
+          .likerectangle {
+            box-shadow: 12px 12px 0 0 #abd2ff;
+            border-radius: 30px;
+            text-align: center;
+            .likediv {
+              width: 157px;
+              height: 164px;
+              background: #ffffff;
+              box-shadow: 6px 6px 0 0 #71b2ff;
+              border-radius: 30px;
+              .passednumber {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 26px;
+                line-height: 31px;
+
+                color: #1c84ff;
+              }
+            }
+          }
+          .passedkurs {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 36px;
+            display: flex;
+            justify-content: center;
+            color: #1c84ff;
+          }
+        }
+        .mycourse {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 30px;
+          line-height: 36px;
+          margin-left: 3%;
+          margin-top: 54px;
+          color: #000000;
+        }
+        .htmlstart {
+          align-items: center;
+          display: flex;
+          gap: 50px;
+          margin-top: 50px;
+          margin-left: 3%;
+          &:active {
+            .desccourse {
+              ._html {
+                color: #1c84ff;
+              }
+            }
+          }
+          .html {
+            box-shadow: 12px 12px 0 0 #abd2ff;
+            border-radius: 30px;
+            .htmlrectangle {
+              width: 157.72px;
+              height: 164.6px;
+              background: #000000;
+              box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+              border-radius: 30px;
+              display: grid;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 26px;
+              line-height: 31px;
+              color: #ffffff;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 6px 6px 0 0 #71b2ff;
+            }
+          }
+          .desccourse {
+            width: 500px;
+
+            ._html {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 30px;
+              line-height: 36px;
+              color: #000000;
+            }
+            .incourse {
+              margin-top: 20px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 22px;
+              line-height: 35px;
+              color: #000000;
+            }
+          }
+          .start_btns {
+            display: grid;
+            gap: 20px;
+            .startlearn {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+            .linktodoc {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+          }
+        }
+        .cssstart {
+          align-items: center;
+          display: flex;
+          gap: 50px;
+          margin-top: 70px;
+          margin-left: 3%;
+          &:active {
+            .desccourse {
+              ._css {
+                color: #1c84ff;
+              }
+            }
+          }
+          .css {
+            box-shadow: 12px 12px 0 0 #abd2ff;
+            border-radius: 30px;
+            .cssrectangle {
+              width: 157.72px;
+              height: 164.6px;
+              background: #000000;
+              box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+              border-radius: 30px;
+              display: grid;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 26px;
+              line-height: 31px;
+              color: #ffffff;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 6px 6px 0 0 #71b2ff;
+            }
+          }
+          .desccourse {
+            width: 500px;
+
+            ._css {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 30px;
+              line-height: 36px;
+              color: #000000;
+            }
+            .incourse {
+              margin-top: 20px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 22px;
+              line-height: 35px;
+              color: #000000;
+            }
+          }
+          .start_btns {
+            display: grid;
+            gap: 20px;
+            .startlearn {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+            .linktodoc {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+          }
+        }
+        .jsstart {
+          align-items: center;
+          display: flex;
+          gap: 50px;
+          margin-top: 70px;
+          margin-left: 3%;
+          &:active {
+            .desccourse {
+              ._js {
+                color: #1c84ff;
+              }
+            }
+          }
+          .js {
+            box-shadow: 12px 12px 0 0 #abd2ff;
+            border-radius: 30px;
+            .jsrectangle {
+              width: 157.72px;
+              height: 164.6px;
+              background: #000000;
+              box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+              border-radius: 30px;
+              display: grid;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 26px;
+              line-height: 31px;
+
+              color: #ffffff;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 6px 6px 0 0 #71b2ff;
+            }
+          }
+          .descourse {
+            width: 500px;
+
+            ._js {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 30px;
+              line-height: 36px;
+              color: #000000;
+            }
+            .incourse {
+              margin-top: 20px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 22px;
+              line-height: 35px;
+              color: #000000;
+            }
+          }
+          .start_btns {
+            display: grid;
+            gap: 20px;
+            .startlearn {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+            .linktodoc {
+              width: 280px;
+              height: 60px;
+              border: none;
+              background: #cccccc;
+              border-radius: 20px;
+              color: #ffffff;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              font-size: 18px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              &:active {
+                background: #1c84ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

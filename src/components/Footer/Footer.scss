@@ -1,0 +1,224 @@
+.footer {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  p {
+    font-weight: 400;
+    cursor: pointer;
+    &:hover {
+      color: #1c84ff;
+    }
+  }
+  .footpart {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    .footadress {
+      display: grid;
+      gap: 5%;
+      .adresses {
+        display: grid;
+        gap: 20%;
+        .adress {
+          margin-top: 30px;
+          display: flex;
+          align-items: center;
+          gap: 2%;
+          cursor: pointer;
+          &:hover {
+            color: #1c84ff;
+          }
+          .location {
+            font-size: 30px;
+            opacity: 0.6;
+          }
+          .adressoffice {
+            width: 256px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #000000;
+            cursor: pointer;
+            &:hover {
+              color: #1c84ff;
+            }
+          }
+        }
+        .footcontact {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          gap: 4%;
+          margin-top: 10px;
+          &:hover {
+            color: #1c84ff;
+          }
+
+          .phone {
+            font-size: 30px;
+            opacity: 0.5;
+          }
+          .ournumber {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            cursor: pointer;
+
+            &:hover {
+              color: #1c84ff;
+            }
+          }
+        }
+      }
+    }
+    .social_menu {
+      display: grid;
+      gap: 25%;
+      .socialhead {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        cursor: pointer;
+        &:hover {
+          color: #1c84ff;
+        }
+      }
+      .socialmedia {
+        display: grid;
+        gap: 20%;
+        .telegramm {
+          display: flex;
+          gap: 7%;
+          align-items: center;
+          cursor: pointer;
+          &:hover {
+            color: #1c84ff;
+          }
+        }
+        .foottg {
+          font-size: 30px;
+          opacity: 0.5;
+        }
+        .tg {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+          &:hover {
+            color: #1c84ff;
+          }
+        }
+        .instagramm {
+          display: flex;
+          gap: 7%;
+          align-items: center;
+          cursor: pointer;
+          &:hover {
+            color: #1c84ff;
+          }
+          .footinsta {
+            font-size: 30px;
+            opacity: 0.6;
+          }
+          .insta {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            &:hover {
+              color: #1c84ff;
+            }
+          }
+        }
+        .youtube {
+          display: flex;
+          gap: 7%;
+          align-items: center;
+          cursor: pointer;
+          &:hover {
+            color: #1c84ff;
+          }
+          .foottube {
+            font-size: 30px;
+            opacity: 0.6;
+          }
+          .tube {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            &:hover {
+              color: #1c84ff;
+            }
+          }
+        }
+      }
+    }
+    .menu_items {
+      display: grid;
+      gap: 50%;
+      margin-top: -21px;
+      display: grid;
+      gap: 50%;
+      margin-top: -21px;
+      .itemhead {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        cursor: pointer;
+        &:hover {
+          color: #1c84ff;
+        }
+      }
+      .about_item {
+        display: grid;
+        gap: 35%;
+        margin-top: -11px;
+      }
+    }
+    .additionally {
+      display: grid;
+      gap: 37%;
+      margin-top: -8px;
+
+      .addithead {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        cursor: pointer;
+        &:hover {
+          color: #1c84ff;
+        }
+      }
+      .addit_menu {
+        display: grid;
+        gap: 33%;
+      }
+    }
+  }
+}

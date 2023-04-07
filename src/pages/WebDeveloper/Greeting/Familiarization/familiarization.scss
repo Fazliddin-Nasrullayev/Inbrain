@@ -1,0 +1,316 @@
+.familiarpage {
+  width: 100%;
+  height: 100%;
+  .familiarcontainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    .aboutlesson {
+      width: 100%;
+      margin-top: 40px;
+      display: grid;
+      gap: 30px;
+
+      .introduction {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+      }
+      .aboutfoundation {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        .course {
+          color: #1c84ff;
+        }
+      }
+      .comforts {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+
+        color: #000000;
+      }
+    }
+
+    .videopart {
+      width: 100%;
+      margin-top: 60px;
+
+      .watchvideo {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 46px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      .videolessons {
+        margin-top: 60px;
+        display: flex;
+        gap: 30px;
+        .bigimg {
+          width: 630px;
+          height: 400px;
+          left: 0px;
+          top: 1px;
+
+          background: linear-gradient(
+            0deg,
+            rgba(147, 163, 219, 0.2),
+            rgba(147, 163, 219, 0.2)
+          );
+          border-radius: 30px;
+        }
+        .lessons {
+          display: grid;
+          cursor: pointer;
+          img {
+            border-radius: 30px;
+            &:hover {
+              background: rgba(1, 169, 225, 0.1);
+              background-repeat: repeat;
+            }
+          }
+          .firstlesson {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            &:hover {
+              color: #1c84ff;
+            }
+
+            .firsttxt {
+              width: 215px;
+              height: 58px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 29px;
+              &:hover {
+                color: #1c84ff;
+              }
+            }
+          }
+          .secondlesson {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .secondtxt {
+              width: 215px;
+              height: 58px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 29px;
+              &:hover {
+                color: #1c84ff;
+                cursor: pointer;
+              }
+            }
+          }
+          .thirdlesson {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .thirdtxt {
+              width: 215px;
+              height: 58px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 29px;
+              &:hover {
+                color: #1c84ff;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .webdev_f {
+      width: 100%;
+      height: 505px;
+      margin-top: 60px;
+      margin-bottom: 200px;
+      align-items: center;
+      display: flex;
+      background: #f8f8ff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+      border-radius: 60px;
+
+      &:hover {
+        .foundation {
+          box-shadow: 24px 24px 0 0 #b3dcff;
+          .webdevcourse {
+            box-shadow: 12px 12px 0 0 #79c1ff;
+          }
+        }
+        .aboutcourse {
+          .topro {
+            color: #1c84ff;
+          }
+          .startcourse {
+            display: flex;
+            align-items: center;
+
+            .start_btn {
+              background: #ffcc00;
+            }
+            p {
+            }
+          }
+        }
+      }
+      .foundation {
+        margin-left: 5%;
+        width: 33%;
+        height: 78%;
+        border-radius: 60px;
+
+        .webdevcourse {
+          width: 100%;
+          height: 100%;
+          background: #1c84ff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 60px;
+          /*                  */
+        }
+      }
+      .aboutcourse {
+        width: 50%;
+        margin-left: 80px;
+        height: 80%;
+        color: #ffffff;
+        display: grid;
+
+        .kurs {
+          width: 37px;
+          height: 21px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          color: #1c84ff;
+        }
+        .topro {
+          top: 10%;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          color: #000000;
+        }
+        .learnjs {
+          width: 100%;
+          top: 30%;
+          height: 126px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 42px;
+          color: #000000;
+        }
+        .startcourse {
+          width: 80%;
+          display: flex;
+          align-items: center;
+          top: 80%;
+          gap: 10%;
+
+          .start_btn {
+            width: 65%;
+            height: 58px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            background: #000000;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            border: none;
+          }
+
+          .aboutcourse {
+            width: 50%;
+            margin-left: 80px;
+            height: 80%;
+            color: #ffffff;
+            display: grid;
+            .kurs {
+              width: 37px;
+              height: 21px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 16px;
+              color: #1c84ff;
+            }
+            .topro {
+              top: 10%;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 30px;
+              color: #000000;
+            }
+            .learnjs {
+              width: 100%;
+              top: 30%;
+              height: 126px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 42px;
+              color: #000000;
+            }
+            .startcourse {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              top: 80%;
+              gap: 10%;
+
+              .durationcourse {
+                width: 120px;
+                // margin-top: 35px;
+                color: #ffcc00;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.scrol{
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}

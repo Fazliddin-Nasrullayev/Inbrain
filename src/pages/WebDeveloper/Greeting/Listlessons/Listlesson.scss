@@ -1,0 +1,249 @@
+.listpage {
+  width: 100%;
+
+  .listcontainer {
+    width: 100%;
+    height: 100%;
+    .header_list {
+      width: 100%;
+      margin-top: 50px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+
+      .headlogo {
+        width: 318px;
+        height: 69px;
+      }
+      .familiarlesson {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      .search {
+        width: 56px;
+        height: 38.56px;
+        color: #ffffff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        border: none;
+        background: none;
+        background-color: #000000;
+        border-radius: 110.164px;
+      }
+      .users {
+        width: 137px;
+        height: 40px;
+      }
+    }
+
+    .list_main {
+      width: 100%;
+      margin-top: 80px;
+      .circlepart {
+        height: 200px;
+        display: grid;
+        .thislesson {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+          .abouthtml {
+            color: #1c84ff;
+          }
+        }
+        .circle {
+          width: 100%;
+        }
+      }
+      .training {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        width: 100%;
+        .trainhead {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+        }
+        .description {
+          margin-top: 50px;
+          width: 550px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+
+          color: #000000;
+        }
+        .continuelearnbtn {
+          width: 280px;
+          height: 60px;
+          margin-top: 20px;
+          color: #ffffff;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          gap: 20px;
+          background: #18191b;
+          border-radius: 20px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #ffffff;
+        }
+        .numberlesson {
+          height: 360px;
+        }
+      }
+
+
+      .yourcourses {
+        display: grid;
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+
+
+
+        .your_courses {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+          color: #000000;
+        }
+        .courscard {
+          width: 100%;
+          margin-top: 80px;
+          display: flex;
+          gap: 3%;
+          flex-wrap: wrap;
+        }
+        .yourcoursescard {
+          width: 31.2%;
+          height: 420px;
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin-bottom: 5%;
+          background: #18191b;
+          border-radius: 50px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: rgb(28, 132, 255, 0.5);
+            transition: 0.3s;
+          }
+
+
+          &:active {
+            background: #1c84ff;
+          }
+          .itemimg {
+            width: 230px;
+            height: 200px;
+            cursor: pointer;
+          }
+          .itemtitle {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 36px;
+            text-align: center;
+            color: #ffffff;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .footlist {
+    margin-top: 800px;
+  }
+}
+
+
+
+
+
+.listpage_list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  &_item {
+    // color: black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    // background-color: blue;
+
+    &_line {
+      width: 100%;
+      margin: 0;
+      display: block;
+      // width: 50px;
+      height: 5px;
+      background-color: black;
+
+      &_1 {
+        background-color: #1C84FF ;
+      }
+    }
+
+
+    &_circle {
+      margin: 0;
+      display: block;
+      width: 15px;
+      height: 15px;
+      color: black;
+      border-radius: 50%;
+      background-color: #000;
+      cursor: pointer;
+
+      &_1 {
+        background-color: #1C84FF ;
+      }
+    }
+
+  }
+}
+
+.dp {
+  background-color: #1C84FF !important;
+}
+
+.listpage_list_item_text {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+color: #1C84FF;
+  position: absolute;
+  top: -42px;
+  right: -2px;
+}

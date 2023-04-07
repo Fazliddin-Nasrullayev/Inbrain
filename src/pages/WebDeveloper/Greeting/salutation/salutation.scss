@@ -1,0 +1,192 @@
+.salutationpage {
+  width: 100%;
+
+  .salutationcontainer {
+    width: 100%;
+    height: 100%;
+
+    .mainpart {
+      width: 100%;
+      margin-top: 83px;
+      display: grid;
+      gap: 75px;
+      .weareinbrain {
+        width: 509px;
+        height: 41px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 41px;
+        color: #000000;
+      }
+      .aboutlessons {
+        width: 100%;
+        height: 54px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+      }
+      .video__lesson__img {
+        width: 100%;
+      }
+      .image {
+        width: 85%;
+        height: 662px;
+      }
+      .sprint {
+        width: 100%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17.5px;
+        line-height: 27px;
+        color: #000000;
+      }
+      .testpart {
+        display: grid;
+        width: 100%;
+        .block {
+          display: flex;
+          justify-content: space-around;
+
+          .test {
+            width: 50%;
+
+            display: grid;
+            align-items: center;
+            .testhead {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 30px;
+              line-height: 41px;
+              color: #000000;
+            }
+            .variants {
+              display: flex;
+              gap: 10px;
+              margin-top: 20px;
+              align-items: center;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 22px;
+              color: #000000;
+              cursor: pointer;
+
+              .custom + label {
+                cursor: pointer;
+              }
+              .custom + label:before {
+                content: "";
+                display: inline-block;
+                font-size: 18px;
+              }
+              .custom:checked + label:before {
+                color: #1c84ff;
+              }
+
+              .custom2 + label {
+                cursor: pointer;
+              }
+              .custom2 + label:before {
+                content: "";
+                display: inline-block;
+                font-size: 18px;
+              }
+              .custom2:checked + label::before {
+                color: #1c84ff;
+              }
+              .custom3 + label {
+                cursor: pointer;
+              }
+              .custom3 + label:before {
+                content: "";
+                display: inline-block;
+                font-size: 18px;
+              }
+              .custom3:checked + label::before {
+                color: #1c84ff;
+              }
+              .custom4 + label {
+                cursor: pointer;
+              }
+              .custom4 + label:before {
+                content: "";
+                display: inline-block;
+                font-size: 18px;
+              }
+              .custom4:checked + label::before {
+                color: #1c84ff;
+              }
+            }
+          }
+          .task__img__block {
+            width: 50%;
+            display: flex;
+
+            .taskimg {
+              width: 80%;
+              height: 100%;
+              margin-left: 20%;
+            }
+          }
+        }
+        .thanks {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 41px;
+
+          color: #000000;
+        }
+        .btns {
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .returntolist {
+            width: 321px;
+            height: 52px;
+            border: none;
+            background: #1c84ff;
+            border-radius: 16px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #ffffff;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+          }
+          .forward {
+            width: 151px;
+            height: 52px;
+            border: none;
+            background: #1c84ff;
+            border-radius: 16px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
